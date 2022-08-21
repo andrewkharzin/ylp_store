@@ -8,6 +8,15 @@ import App from './App';
 import { store, persistor } from './store/store';
 
 import './index.scss';
+// import "./assets/booty/css/bootstrap.css";
+// import "./assets/booty/style.css";
+// import "./assets/booty/css/dark.css";
+// import "./assets/booty/css/font-icons.css";
+// import "./assets/booty/css/animate.css";
+// import "./assets/booty/css/magnific-popup.css";
+
+// import "./assets/booty/css/custom.css";
+	
 
 const rootElement = document.getElementById('root');
 
