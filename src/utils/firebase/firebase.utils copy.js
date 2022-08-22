@@ -84,6 +84,7 @@ export const createUserDocumentFromAuth = async (userAuth) => {
    console.log(userDocRef)
 
    const userShanshot = await getDoc(userDocRef)
+
 //    console.log(userShanshot)
 //    console.log(userShanshot.exists())
 
@@ -103,7 +104,7 @@ export const createUserDocumentFromAuth = async (userAuth) => {
         console.log('error create the user', error.message)
     }
 
-    return userDocRef;
+    return userShanshot;
 
    }
    //if user data does not exist
